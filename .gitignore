@@ -1,0 +1,9 @@
+*
+!/*
+!/.gitignore
+!/src/main.py
+!/src/services.py
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/downloadmosh.ico
