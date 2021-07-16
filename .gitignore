@@ -2,7 +2,8 @@
 !/*
 !/.gitignore
 !/src/main.py
-!/src/services.py
+!/src/myService.py
+!/src/myClass.py
 !/.gitattributes
 !/README.md
 !/LICENSE
