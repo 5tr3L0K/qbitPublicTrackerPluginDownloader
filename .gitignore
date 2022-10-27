@@ -13,3 +13,6 @@
 !/.gitattributes
 !/README.md
 !/LICENSE
+
+# other
+!/install_env.ps1
