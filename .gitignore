@@ -1,10 +1,15 @@
+# ignore all
 *
-!/*
-!/.gitignore
+# allowlist
+!*/
+
+# python files
 !/src/main.py
 !/src/myService.py
 !/src/myClass.py
+
+# git files
+!/.gitignore
 !/.gitattributes
 !/README.md
 !/LICENSE
-!/downloadmosh.ico

@@ -93,9 +93,11 @@ def download(param: mc.Param):
         
         rep = replace()
 
+        n = 1
+        
         for i in links:
             preName = str(i).split('/')
-            name = preName[-1]
+            name = str(n).zfill(3) + preName[-1]
             fullName = '{0}/{1}'.format(param.path, name)
 
             if rep:
@@ -108,6 +110,7 @@ def download(param: mc.Param):
                     print('[YA EXISTE] {0}'.format(name))
                 else:
                     downloadSub('NUEVO', str(i), name, fullName)
+            n += 1
     except Exception as e:
         print('Error en: {0}'.format(proc))
         raise e
